@@ -7,91 +7,152 @@
     </head>
     <body>
         <div class="container">
-            <header>
-                <a href="#navigation-menu">Navigation menu</a>
-                <h2>Store</h2>
-                <a href="#cart-menu">Cart menu</a>
+
+            <!-- ApplicationBar -->
+            <header class="application_bar">
+                <a class="application_bar-button" href="#navigation-menu">Navigation menu</a>
+                <h2 class="application_bar-title">Store</h2>
+                <a class="application_bar-button" href="#cart-menu">Cart menu</a>
             </header>
-            <main>
-                <header>
-                    <div>
-                        <input type="search" name="store-search" id="store-search">
-                    </div>
+            <!-- ApplicationBar -->
 
-                    <div>
-                        <b>Show part for</b>
-                        <span>All cars</span>
-                    </div>
+            <!-- HomePage -->
+            <main class="home_page">
 
-                    <ul>
-                        <li>Engine</li>
-                        <li>Transmission</li>
-                        <li>Shell</li>
-                        <li>Accessories</li>
+                <!-- PageHeader -->
+                <header class="page_header">
+
+                    <!-- SearchField -->
+                    <div class="search_field">
+                        <input class="search_field-input" type="search" name="store-search" id="store-search">
+                    </div>
+                    <!-- SearchField -->
+
+                    <!-- OptionsSelector -->
+                    <div class="options_selector">
+                        <b class="options_selector-headline">Show part for</b>
+                        <span class="options_selector-selected">All cars</span>
+                    </div>
+                    <!-- OptionsSelector -->
+
+                    <!-- СarouselList -->
+                    <ul class="carousel_list">
+                        <li class="carousel_list-item">Engine</li>
+                        <li class="carousel_list-item">Transmission</li>
+                        <li class="carousel_list-item">Shell</li>
+                        <li class="carousel_list-item">Accessories</li>
                     </ul>
+                    <!-- СarouselList -->
+
                 </header>
+                <!-- PageHeader -->
                 
-                <section>
-                    <header>
-                        <h3>Recomendations</h3>
-                        <span>Show all</span>
-                        <p>Set of recommended products for you</p>
-                    </header>
+                <!-- PageSection -->
+                <section class="page_section">
 
-                    <ul>
-                        <li>
-                            <h4>Brake pads</h4>
-                            <span>available 8 items</span>
-                            <b>from 3000 KZT</b>
-                        </li>
-                        <li>
-                            <h4>Brake pads</h4>
-                            <span>available 8 items</span>
-                            <b>from 3000 KZT</b>
-                        </li>
-                        <li>
-                            <h4>Brake pads</h4>
-                            <span>available 8 items</span>
-                            <b>from 3000 KZT</b>
-                        </li>
-                        <li>
-                            <h4>Brake pads</h4>
-                            <span>available 8 items</span>
-                            <b>from 3000 KZT</b>
-                        </li>
-                    </ul>
-                </section>
-
-                <section>
-                    <header>
-                        <h3>Manufacturers</h3>
-                        <span>Show all</span>
+                    <!-- SectionHeader -->
+                    <header class="section_header">
+                        <h3 class="section_header-title">Recomendations</h3>
+                        <span class="section_header-more_button">Show all</span>
+                        <p class="section_header-description">Set of recommended products for you</p>
                     </header>
-                    
-                    <ul>
-                        <li>
-                            <h4>Koyo</h4>
-                            <span>available 14 products</span>
-                            <p>Manufacturer description</p>
+                    <!-- SectionHeader -->
+
+                    <!-- СarouselList -->
+                    <ul class="carousel_list">
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Brake pads</h4>
+                            <span class="preview_card-subtitle">available 8 items</span>
+                            <b class="preview_card-price">from 3000 KZT</b>
                         </li>
-                        <li>
-                            <h4>Koyo</h4>
-                            <span>available 14 products</span>
-                            <p>Manufacturer description</p>
+                        <!-- PreviewCard -->
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Brake pads</h4>
+                            <span class="preview_card-subtitle">available 8 items</span>
+                            <b class="preview_card-price">from 3000 KZT</b>
                         </li>
-                        <li>
-                            <h4>Koyo</h4>
-                            <span>available 14 products</span>
-                            <p>Manufacturer description</p>
+                        <!-- PreviewCard -->
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Brake pads</h4>
+                            <span class="preview_card-subtitle">available 8 items</span>
+                            <b class="preview_card-price">from 3000 KZT</b>
                         </li>
-                        <li>
-                            <h4>Koyo</h4>
-                            <span>available 14 products</span>
-                            <p>Manufacturer description</p>
+                        <!-- PreviewCard -->
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Brake pads</h4>
+                            <span class="preview_card-subtitle">available 8 items</span>
+                            <b class="preview_card-price">from 3000 KZT</b>
                         </li>
+                        <!-- PreviewCard -->
+
                     </ul>
+                    <!-- СarouselList -->
+
                 </section>
+                <!-- PageSection -->
+
+                <!-- PageSection -->
+                <section class="page_section">
+
+                    <!-- SectionHeader -->
+                    <header class="section_header">
+                        <h3 class="section_header-title">Manufacturers</h3>
+                        <span class="section_header-more_button">Show all</span>
+                    </header>
+                    <!-- SectionHeader -->
+
+                    <!-- СarouselList -->
+                    <ul class="carousel_list">
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Koyo</h4>
+                            <span class="preview_card-subtitle">available 14 products</span>
+                            <b class="preview_card-price">Manufacturer description</b>
+                        </li>
+                        <!-- PreviewCard -->
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Koyo</h4>
+                            <span class="preview_card-subtitle">available 14 products</span>
+                            <b class="preview_card-price">Manufacturer description</b>
+                        </li>
+                        <!-- PreviewCard -->
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Koyo</h4>
+                            <span class="preview_card-subtitle">available 14 products</span>
+                            <b class="preview_card-price">Manufacturer description</b>
+                        </li>
+                        <!-- PreviewCard -->
+
+                        <!-- PreviewCard -->
+                        <li class="preview_card carousel_list-item">
+                            <h4 class="preview_card-title">Koyo</h4>
+                            <span class="preview_card-subtitle">available 14 products</span>
+                            <b class="preview_card-price">Manufacturer description</b>
+                        </li>
+                        <!-- PreviewCard -->
+
+                    </ul>
+                    <!-- СarouselList -->
+
+                </section>
+                <!-- PageSection -->
+                
             </main>
+            <!-- HomePage -->
+
         </div>
     </body>
 </html>
