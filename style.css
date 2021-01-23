@@ -1,0 +1,218 @@
+body {
+    margin: 1rem;
+    padding: 0;
+
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+
+    color: #333333;
+    background: #FAFAFA;
+}
+
+/* ApplicationBar */
+
+.application_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.application_bar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
+
+    font-size: 1.5rem;
+    line-height: 0;
+
+    border: .125rem solid #333333;
+    border-radius: .5rem;
+    
+    background: transparent;
+    color: #333333;
+}
+
+.application_bar-title {
+    margin: 0;
+    padding: 0;
+
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-weight: 800;
+}
+
+/* PageHeader */
+
+.page_header {
+    margin: 0;
+    padding: 0;
+}
+
+/* SearchField */
+
+.search_field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1rem 0;
+    height: 3.25rem;
+
+    background: white;
+    border-radius: .5rem;
+
+    box-shadow:  0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.search_field-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 3.25rem;
+    height: 3.25rem;
+
+    font-size: 1.125rem;
+    line-height: 0;
+}
+
+.search_field-input {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    clip-path: none;
+}
+
+/* OptionsSelector */
+
+.options_selector {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.25rem 0;
+}
+
+.options_selector-headline {
+    margin: .5rem 0;
+
+    font-size: .75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.options_selector-selected {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* PageSection */
+
+.page_section {
+    padding-top: 1.75rem;
+}
+
+/* SectionHeader */
+
+.section_header {
+    display: grid;
+    grid-template: 1fr auto / 1fr auto;
+    align-items: center;
+
+    padding: .75rem 0;
+}
+
+.section_header-title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.section_header-more_button {
+    color: red;
+}
+
+.section_header-description {
+    margin: .25rem 0;
+    font-size: .875rem;
+    color: #555555;
+}
+
+/* СarouselList */
+
+.carousel_list {
+    
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0 1rem .75rem 1rem;
+    width: 100vw;
+
+    box-sizing: border-box;
+
+    transform: translateX(-1rem);
+
+    list-style: none;
+
+    overflow-x: scroll;
+}
+
+.carousel_list > * + * {
+    margin-left: 1rem;   
+}
+
+.carousel_list-item {
+
+}
+
+/* PreviewCard */
+
+.preview_card {
+    padding: 1rem;
+    background: rgb(228, 228, 228);
+    border-radius: .5rem;
+}
+
+.preview_card-title {
+    margin: 0;
+
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.preview_card-subtitle {
+    padding: .25rem 0;
+    font-size: .875rem;
+
+}
+
+.preview_card-description {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* other */
+
+.category_item {
+    background: rgb(228, 228, 228);
+    padding: .75rem 1.25rem;
+    border-radius: .5rem;
+}
+
+.recomendation_card {
+    min-width: 8rem;
+}
+
+.manufacturer_card {
+    min-width: 12rem;
+}
